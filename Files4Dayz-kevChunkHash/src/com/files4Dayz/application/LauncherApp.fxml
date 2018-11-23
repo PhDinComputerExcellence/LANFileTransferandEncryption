@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.files4Dayz.application.LauncherController">
+   <left>
+      <VBox prefHeight="400.0" prefWidth="194.0" BorderPane.alignment="CENTER">
+          <padding>
+              <Insets bottom="15" left="10" right="0" top="15" />
+          </padding>
+         <children>
+            <Region prefHeight="77.0" prefWidth="135.0" />
+            <Label text="Start program as:">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="serverButton" mnemonicParsing="false" text="Server">
+                <padding>
+                    <Insets bottom="15" left="0" right="0" top="15" />
+                </padding>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font size="23.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="clientServer" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="clientButton" mnemonicParsing="false" text="Client" toggleGroup="$clientServer">
+               <font>
+                  <Font size="23.0" />
+               </font></RadioButton>
+         </children>
+      </VBox>
+   </left>
+   <right>
+      <VBox prefHeight="300.0" prefWidth="381.0" BorderPane.alignment="CENTER">
+          <padding>
+              <Insets bottom="0" left="10" right="10" top="0" />
+          </padding>
+         <children>
+            <Region prefHeight="57.0" prefWidth="406.0" />
+            <Label prefHeight="61.0" prefWidth="371.0" text="IP Address (leave blank if server):">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <TextField fx:id="ip">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <Label prefHeight="61.0" prefWidth="87.0" text="Port:">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <TextField fx:id="port">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <Button fx:id="startButton" alignment="CENTER" mnemonicParsing="false" text="Start" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font size="25.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="100.0" top="20.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </VBox>
+   </right>
+   <center>
+      <Region prefHeight="254.0" prefWidth="25.0" style="-fx-background-color: #cccccc;" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

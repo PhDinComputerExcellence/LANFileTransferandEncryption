@@ -1,0 +1,271 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Built-By: genie.tools.cdt
+Bundle-SymbolicName: org.eclipse.cdt.debug.application;singleton:=true
+Bundle-Activator: org.eclipse.cdt.debug.application.Activator
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.cd
+ t.debug.ui;bundle-version="7.3.0",org.eclipse.cdt.debug.mi.core;bundl
+ e-version="7.3.0",org.eclipse.cdt.debug.mi.ui;bundle-version="6.1.1",
+ org.eclipse.cdt.dsf;bundle-version="2.4.0",org.eclipse.cdt.dsf.gdb;bu
+ ndle-version="4.2.0",org.eclipse.cdt.dsf.gdb.ui;bundle-version="2.4.0
+ ",org.eclipse.cdt.dsf.ui;bundle-version="2.4.0",org.eclipse.cdt.gdb;b
+ undle-version="7.0.0",org.eclipse.cdt.gdb.ui;bundle-version="7.0.0",o
+ rg.eclipse.cdt.launch;bundle-version="7.1.0",org.eclipse.ui.ide,org.e
+ clipse.cdt.core,org.eclipse.cdt.managedbuilder.core;bundle-version="8
+ .2.1",org.eclipse.cdt.managedbuilder.gnu.ui;bundle-version="8.2.0",or
+ g.eclipse.cdt.debug.core,org.eclipse.ui.workbench
+Bundle-Version: 1.0.0.201406111759
+Build-Jdk: 1.7.0_51
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %provider
+Bundle-Name: %bundleName
+Eclipse-BundleShape: dir
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Import-Package: org.eclipse.cdt.core.model,org.eclipse.cdt.debug.core,
+ org.eclipse.cdt.debug.core.executables,org.eclipse.core.resources,org
+ .eclipse.debug.core,org.eclipse.debug.ui,org.eclipse.debug.ui.actions
+Bundle-ManifestVersion: 2
+
+Name: eclipse.png
+SHA1-Digest: Wn4ZtSh8OGwHMxNVSl1blf1x/8A=
+
+Name: org/eclipse/cdt/debug/application/ApplicationActionBarAdvisor$Wo
+ rkbenchCommandAction.class
+SHA1-Digest: /XczT4fbB/WsTZWH7AwyaPBGTng=
+
+Name: org/eclipse/cdt/internal/debug/application/DebugExecutable.class
+SHA1-Digest: LJWk00rV3u4SNwi3slw3tD/AB1U=
+
+Name: org/eclipse/cdt/debug/application/messages.properties
+SHA1-Digest: XGweGrjoHujVcuHAEcTYpmf2vSE=
+
+Name: org/eclipse/cdt/debug/application/ICDTStandaloneDebugLaunchConst
+ ants.class
+SHA1-Digest: qAJ+PuZDElbFFbdvITVFlhlVOpc=
+
+Name: org/eclipse/cdt/debug/application/ApplicationWorkbenchWindowAdvi
+ sor$PostWindowCreateRunnable$1.class
+SHA1-Digest: ripV4J4gE64oSFkAnN1ggIg+ppE=
+
+Name: org/eclipse/cdt/debug/application/ApplicationWorkbenchWindowAdvi
+ sor$PostWindowCreateRunnable$3.class
+SHA1-Digest: s2CyzD1f91PUn++ZjaDUGtjJSzU=
+
+Name: org/eclipse/cdt/debug/application/ApplicationWorkbenchWindowAdvi
+ sor$PostWindowCreateRunnable$5.class
+SHA1-Digest: TM+3/AzrQdopHaiQmSCLlK6/Dbw=
+
+Name: org/eclipse/cdt/debug/application/ApplicationWorkbenchAdvisor.cl
+ ass
+SHA1-Digest: LUXWBkZeHgKTyNu91bR5X1cQo5o=
+
+Name: org/eclipse/cdt/internal/debug/application/DebugAttachedExecutab
+ leHandler.class
+SHA1-Digest: sWHS1hRDyB5y3PjfA5FvXZpn79M=
+
+Name: org/eclipse/cdt/internal/debug/application/DebugCoreFileHandler$
+ 1.class
+SHA1-Digest: LNzhFQ32amJYQfClTIYFCiLbCkE=
+
+Name: scripts/dev.properties
+SHA1-Digest: dTFafo9dNG/mH5RxndQNYUA2XLo=
+
+Name: org/eclipse/cdt/debug/application/ApplicationActionBarAdvisor.cl
+ ass
+SHA1-Digest: tGGJvQoXIltHRjlI2dO+XYl2Ppg=
+
+Name: scripts/README
+SHA1-Digest: AY9Ain5BCdpLeN3TfGHvfyEGbiM=
+
+Name: org/eclipse/cdt/internal/debug/application/DebugExecutable$1.cla
+ ss
+SHA1-Digest: Zzvc1S3SBx8KHrH2BMe54+apy3A=
+
+Name: org/eclipse/cdt/debug/application/CoreFileDialog.class
+SHA1-Digest: 8/5Im3SFlPw10T5SkCoLFWKcdFg=
+
+Name: eclipse.gif
+SHA1-Digest: qqPgXl0Cuu7J+oyLI7KYJzKh5GQ=
+
+Name: org/eclipse/cdt/internal/debug/application/CustomizePerspectiveH
+ andler.class
+SHA1-Digest: +hTAi/87QxElACIMK3XJHlyYlFg=
+
+Name: org/eclipse/cdt/internal/debug/application/DebugAttachedExecutab
+ leHandler$1.class
+SHA1-Digest: RZTD0plFrkjZTYCKjF63SQO8TwU=
+
+Name: scripts/config.ini
+SHA1-Digest: PUKHYl7WH1i/13a9pROsO1Vemf8=
+
+Name: org/eclipse/cdt/debug/application/NewExecutableDialog$1.class
+SHA1-Digest: BPTFWSREgv0S6CK7Y5qekDOZYRI=
+
+Name: META-INF/maven/org.eclipse.cdt/org.eclipse.cdt.debug.application
+ /pom.properties
+SHA1-Digest: sy3g+mSt9E1c9DUMfimEqfC7GbI=
+
+Name: org/eclipse/cdt/debug/application/ApplicationActionBarAdvisor$1.
+ class
+SHA1-Digest: DpJsVsw6znn+joZPIZlNYg5A/Ik=
+
+Name: intro-eclipse.png
+SHA1-Digest: IUrE9u5RnkRx7unbvyyosuGTAOE=
+
+Name: eclipse32.png
+SHA1-Digest: Tet+jRa8Gm9JsW/hWCgO9ayE664=
+
+Name: org/eclipse/cdt/debug/application/NewExecutableDialog$3.class
+SHA1-Digest: TwDnt89rG39vHbsjZmIX+CH0tQA=
+
+Name: org/eclipse/cdt/debug/application/ApplicationActionBarAdvisor$3.
+ class
+SHA1-Digest: meGgSaKxZAEX1s+t4nucIXeKdE8=
+
+Name: org/eclipse/cdt/debug/application/CoreFileDialog$1.class
+SHA1-Digest: dI8n7UeQcU9Vwk4wLDo2MhdQeXw=
+
+Name: org/eclipse/cdt/debug/application/CoreFileDialog$3.class
+SHA1-Digest: Gfvt6NF0+z7s6QCaltEathDnDmM=
+
+Name: org/eclipse/cdt/debug/application/CoreFileDialog$5.class
+SHA1-Digest: ju40OqyveXHePsnD3wFIM05RGfA=
+
+Name: org/eclipse/cdt/internal/debug/application/DebugNewExecutableHan
+ dler$2.class
+SHA1-Digest: vOXdY68ZMICkEQbPIgRLpTx/EGw=
+
+Name: org/eclipse/cdt/debug/application/Application.class
+SHA1-Digest: 6VbspMswSW2coLF9tEcy+DJqG2k=
+
+Name: org/eclipse/cdt/debug/application/GCCCompileOptionsParser.class
+SHA1-Digest: 8KdKIebRvGmx/hNYWcWFncBtfkI=
+
+Name: org/eclipse/cdt/debug/application/Activator.class
+SHA1-Digest: psh0ioU/2Hbs8UhJqUT4Buh3j1o=
+
+Name: org/eclipse/cdt/debug/application/NewExecutableInfo.class
+SHA1-Digest: f7/u4uaJo7E9VwasE2W9u+iudUU=
+
+Name: eclipse32.gif
+SHA1-Digest: ppkAcrq2pIoBxNI//Z3q3xJRdEY=
+
+Name: org/eclipse/cdt/debug/application/CoreFileInfo.class
+SHA1-Digest: BeL2G4iwoAV5grpvFufmKZRxANo=
+
+Name: org/eclipse/cdt/debug/application/Messages.class
+SHA1-Digest: 2sGztY4Y41Y6r3CTzQeO+6me+hg=
+
+Name: org/eclipse/cdt/debug/application/ApplicationWorkbenchWindowAdvi
+ sor$PostWindowCreateRunnable.class
+SHA1-Digest: +G1yOsEr+fxoNMEeIbNMnUS0QCY=
+
+Name: org/eclipse/cdt/debug/application/ApplicationWorkbenchWindowAdvi
+ sor.class
+SHA1-Digest: fGpAVPiKguuPNlpaC1ClWxaanv4=
+
+Name: org/eclipse/cdt/internal/debug/application/DebugCoreFileHandler.
+ class
+SHA1-Digest: ryjTfWkcbZqXc6k6hfXqGz4pwqY=
+
+Name: eclipse48.png
+SHA1-Digest: wRYWPRIG/9RrNLHZh4GGFnUMGjQ=
+
+Name: eclipse_lg.gif
+SHA1-Digest: 69MjmTuX2tBydAPuHq7w4/h+T8c=
+
+Name: org/eclipse/cdt/debug/application/ApplicationWorkbenchWindowAdvi
+ sor$StartupException.class
+SHA1-Digest: BMbLAw+kGNeP7N/14yuld7uJ+wg=
+
+Name: META-INF/maven/org.eclipse.cdt/org.eclipse.cdt.debug.application
+ /pom.xml
+SHA1-Digest: SPJLcxNiwkGFTcRF/8dqsKp3E9M=
+
+Name: org/eclipse/cdt/internal/debug/application/JobContainer.class
+SHA1-Digest: uwDKmNbKgEmNEK0t9rFWNTqYqb8=
+
+Name: org/eclipse/cdt/internal/debug/application/DebugAttachedExecutab
+ le.class
+SHA1-Digest: 516m16k2bsFIuaFo0neSDRq/lsY=
+
+Name: plugin.properties
+SHA1-Digest: a5U58LT3eww4pXCRvyQBep5v+yM=
+
+Name: org/eclipse/cdt/debug/application/ApplicationWorkbenchWindowAdvi
+ sor$PostWindowCreateRunnable$2.class
+SHA1-Digest: kAwgTdLRw1GoWgPQCWJ1odmq40s=
+
+Name: org/eclipse/cdt/debug/application/ApplicationWorkbenchWindowAdvi
+ sor$1.class
+SHA1-Digest: R0drbxY/XKGj2J78yWREjxmlD5E=
+
+Name: org/eclipse/cdt/debug/application/ApplicationWorkbenchWindowAdvi
+ sor$PostWindowCreateRunnable$4.class
+SHA1-Digest: KSVmYFjbV/I8jxpMdNyLo86US9g=
+
+Name: org/eclipse/cdt/debug/application/NewExecutableDialog.class
+SHA1-Digest: HQKT2AvEUH0MwSkPlB2p5PBJbg0=
+
+Name: org/eclipse/cdt/internal/debug/application/BuildOptionsParser.cl
+ ass
+SHA1-Digest: xR6HqTszdqFhl5ObzvXZeusfZDc=
+
+Name: plugin.xml
+SHA1-Digest: bwZc2xlPGmCQ1UkqEBceraHgktE=
+
+Name: org/eclipse/cdt/internal/debug/application/DebugNewExecutableHan
+ dler.class
+SHA1-Digest: o4c9svyKwog5Je5eTQkdE691Wm4=
+
+Name: org/eclipse/cdt/debug/application/NewExecutableDialog$2.class
+SHA1-Digest: hA4XcwiLkU2A59HO68JZ5Y2MORw=
+
+Name: eclipse48.gif
+SHA1-Digest: joafzB2KmUajcypuNkoevLaG8oU=
+
+Name: org/eclipse/cdt/debug/application/ApplicationActionBarAdvisor$2.
+ class
+SHA1-Digest: UMrrHoe74hu1UtSvfc4t0xiNxnA=
+
+Name: org/eclipse/cdt/debug/application/NewExecutableDialog$4.class
+SHA1-Digest: kd4w7cngpKA6NvfBL46wXpSSEoU=
+
+Name: org/eclipse/cdt/internal/debug/application/CompilerOptionParser$
+ CWDTracker.class
+SHA1-Digest: ROCoaHA0k2azWFV5h8iXQ18K/5c=
+
+Name: org/eclipse/cdt/debug/application/CoreFileDialog$2.class
+SHA1-Digest: 9hbQe9gZof1Q8h0uf6xVjbdLlvI=
+
+Name: org/eclipse/cdt/debug/application/CoreFileDialog$4.class
+SHA1-Digest: YHTRtOZ8WoPyFq2MzbLWK1DUEvI=
+
+Name: about.html
+SHA1-Digest: yTPoqjs5A/9tV0G1lrJgsxaukXs=
+
+Name: org/eclipse/cdt/internal/debug/application/DebugNewExecutableHan
+ dler$1.class
+SHA1-Digest: 5YMP1Au/oTZ7AYvLLoeZ5K35vms=
+
+Name: scripts/install.sh
+SHA1-Digest: xrCQ8hGeH8w8oyMQVnGei7wg8WU=
+
+Name: org/eclipse/cdt/debug/application/DummyPage.class
+SHA1-Digest: AmXFiYblW8JBqbK4EYHITEOxmc8=
+
+Name: org/eclipse/cdt/internal/debug/application/DebugCoreFile.class
+SHA1-Digest: A2DI0A83bnFiPfdRV0q8x1eNbG0=
+
+Name: org/eclipse/cdt/internal/debug/application/CompilerOptionParser.
+ class
+SHA1-Digest: 7KLZQRlMME0APbll/y4FTheUem8=
+
+Name: scripts/cdtdebug.sh
+SHA1-Digest: s+KwY4tmSH29YiymQQGM7c5xH2Y=
+
+Name: org/eclipse/cdt/debug/application/Application$1.class
+SHA1-Digest: iWcQR/TkA1Y08dHwnYp7dIaVQUU=
+

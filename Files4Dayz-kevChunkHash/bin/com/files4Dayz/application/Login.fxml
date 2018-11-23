@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="270.0" prefWidth="404.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutX="33.0" layoutY="18.0" prefHeight="239.0" prefWidth="338.0">
+         <children>
+            <Label text="Username" />
+            <TextField fx:id="usernameField">
+               <VBox.margin>
+                  <Insets bottom="15.0" />
+               </VBox.margin>
+            </TextField>
+            <Label text="Password" />
+            <PasswordField fx:id="passwordField" />
+            <Label fx:id="warningLabel" prefHeight="21.0" prefWidth="247.0" text="Username or password incorrect" textFill="#f80505">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </Label>
+            <HBox prefHeight="32.0" prefWidth="335.0" spacing="30.0">
+               <children>
+                  <Button fx:id="loginButton" mnemonicParsing="false" text="Login" />
+                  <Button fx:id="cancelButton" mnemonicParsing="false" text="Cancel" />
+               </children>
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</Pane>

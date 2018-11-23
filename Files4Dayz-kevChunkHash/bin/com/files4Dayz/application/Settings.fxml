@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<SplitPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="145.0" prefWidth="583.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.files4Dayz.application.SettingsController">
+   <items>
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="143.0" prefWidth="581.0" spacing="10.0">
+         <children>
+            <HBox prefHeight="69.0" prefWidth="401.0">
+               <children>
+                  <Region maxWidth="-Infinity" prefHeight="100.0" prefWidth="30.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Download path: " />
+                  <TextField fx:id="pathField" prefHeight="31.0" prefWidth="348.0" />
+                  <Button fx:id="selectPath" mnemonicParsing="false" text="..." HBox.hgrow="NEVER">
+                     <HBox.margin>
+                        <Insets left="8.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="BASELINE_RIGHT" maxWidth="-Infinity" prefHeight="42.0" prefWidth="524.0" spacing="20.0">
+               <children>
+                  <Region prefHeight="32.0" prefWidth="209.0" />
+                  <Button fx:id="okButton" mnemonicParsing="false" text="Ok" />
+                  <Button fx:id="cancelButton" mnemonicParsing="false" text="Cancel" />
+               </children>
+               <VBox.margin>
+                  <Insets left="20.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </items>
+</SplitPane>

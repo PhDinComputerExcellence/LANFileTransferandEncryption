@@ -1,0 +1,32 @@
+#This is a generated file; do not edit.
+#Wed May 24 14:37:48 PDT 2017
+org.eclipse.linuxtools.rpm.ui.editor.doc=org.eclipse.linuxtools.rpm.ui.editor.doc\n1.0.0.201406100404
+org.eclipse.linuxtools.cdt.libhover.glibc=org.eclipse.linuxtools.cdt.libhover.glibc\n1.2.0.201406100404
+org.eclipse.linuxtools.tmf.help=org.eclipse.linuxtools.tmf.help\n3.0.0.201406100404
+org.eclipse.help.base=org.eclipse.help.base\n4.0.200.v20140606-1215
+org.eclipse.mylyn.help.ui=org.eclipse.mylyn.help.ui\n3.12.0.v20140523-2010
+org.eclipse.linuxtools.gdbtrace.help=org.eclipse.linuxtools.gdbtrace.help\n3.0.0.201406100404
+org.eclipse.cdt.debug.application.doc=org.eclipse.cdt.debug.application.doc\n1.0.0.201406111759
+org.eclipse.epp.mpc.ui=org.eclipse.epp.mpc.ui\n1.3.0.v20140529-2031
+org.eclipse.linuxtools.changelog.doc=org.eclipse.linuxtools.changelog.doc\n2.7.1.201406100404
+org.eclipse.rse.doc.user=org.eclipse.rse.doc.user\n3.4.100.201403101646
+org.eclipse.linuxtools.valgrind.doc=org.eclipse.linuxtools.valgrind.doc\n1.0.0.201406100404
+org.eclipse.egit.doc=org.eclipse.egit.doc\n3.4.0.201406110918-r
+org.eclipse.linuxtools.cdt.libhover.library.docs=org.eclipse.linuxtools.cdt.libhover.library.docs\n1.0.2.201406100404
+org.eclipse.linuxtools.gcov.docs=org.eclipse.linuxtools.gcov.docs\n1.0.0.201406100404
+org.eclipse.cdt=org.eclipse.cdt\n8.4.0.201406111759
+org.eclipse.ui.cheatsheets=org.eclipse.ui.cheatsheets\n3.4.200.v20131227-1524
+org.eclipse.cdt.launch.remote=org.eclipse.cdt.launch.remote\n2.4.0.201406111759
+org.eclipse.linuxtools.cdt.libhover.devhelp=org.eclipse.linuxtools.cdt.libhover.devhelp\n1.0.0.201406100404
+org.eclipse.linuxtools.gprof.docs=org.eclipse.linuxtools.gprof.docs\n1.0.0.201406100404
+org.eclipse.linuxtools.profiling.docs=org.eclipse.linuxtools.profiling.docs\n1.0.0.201406100404
+org.eclipse.ui.intro=org.eclipse.ui.intro\n3.4.200.v20130326-1254
+org.eclipse.help=org.eclipse.help\n3.6.0.v20130326-1254
+org.eclipse.mylyn.wikitext.help.ui=org.eclipse.mylyn.wikitext.help.ui\n2.1.0.v20140325-2210
+org.eclipse.cdt.doc.user=org.eclipse.cdt.doc.user\n5.3.0.201406111759
+org.eclipse.epp.mpc.help.ui=org.eclipse.epp.mpc.help.ui\n1.3.0.v20140425-1404
+org.eclipse.platform=org.eclipse.platform\n4.4.0.v20140606-1215
+org.eclipse.cdt.autotools.docs=org.eclipse.cdt.autotools.docs\n2.0.2.201406111759
+org.eclipse.linuxtools.lttng.help=org.eclipse.linuxtools.lttng.help\n3.0.0.201406100404
+org.eclipse.platform.doc.user=org.eclipse.platform.doc.user\n4.4.0.v20140606-1558
+org.eclipse.ui.intro.universal=org.eclipse.ui.intro.universal\n3.2.700.v20130904-1701
